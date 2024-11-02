@@ -1,0 +1,465 @@
+[2024-11-02 09:16:03] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-11-02 09:16:03] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-11-02 09:16:03] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-11-02 09:16:03] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-11-02 09:16:03] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-11-02 09:16:03] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-11-02 09:16:03] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963\
+[2024-11-02 09:16:03] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/knotanime/
+[2024-11-02 09:16:03] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-11-02 09:16:03] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-02 09:16:03] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-02 09:16:03] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-11-02 09:16:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/
+[2024-11-02 09:16:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-11-02 09:16:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725edd3dc8f1-EmZnjw.tmp
+[2024-11-02 09:16:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/?simply_static_page=1
+[2024-11-02 09:16:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/?simply_static_page=1
+[2024-11-02 09:16:04] [class-ss-url-fetcher.php:103] Filesize: 84114 bytes
+[2024-11-02 09:16:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-02 09:16:04] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-11-02 09:16:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725edd3dc8f1-EmZnjw.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/index.html
+[2024-11-02 09:16:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:06] [class-ss-fetch-urls-task.php:159] Adding 20 URLs to the queue
+[2024-11-02 09:16:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:07] [class-ss-page.php:119] Checking Content Identical:cb9aa860ae9373094b3adaa016cb98abc8724784===. Value: FALSE
+[2024-11-02 09:16:07] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-11-02 09:16:07] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-02 09:16:07] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-02 09:16:07] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-02 09:16:07] [class-ss-fetch-urls-task.php:69] Total pages: 21; Pages remaining: 20
+[2024-11-02 09:16:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime
+[2024-11-02 09:16:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 21
+[2024-11-02 09:16:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725edd724a6e-cCpsCO.tmp
+[2024-11-02 09:16:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime?simply_static_page=2
+[2024-11-02 09:16:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime?simply_static_page=2
+[2024-11-02 09:16:07] [class-ss-url-fetcher.php:103] Filesize: 355 bytes
+[2024-11-02 09:16:07] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-11-02 09:16:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-11-02 09:16:07] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/knotanime/
+[2024-11-02 09:16:07] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-11-02 09:16:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/sample-page/
+[2024-11-02 09:16:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 21
+[2024-11-02 09:16:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725edd727e78-wWOkV3.tmp
+[2024-11-02 09:16:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/sample-page/?simply_static_page=3
+[2024-11-02 09:16:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/sample-page/?simply_static_page=3
+[2024-11-02 09:16:07] [class-ss-url-fetcher.php:103] Filesize: 59768 bytes
+[2024-11-02 09:16:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-02 09:16:07] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2024-11-02 09:16:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725edd727e78-wWOkV3.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/sample-page/index.html
+[2024-11-02 09:16:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:09] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-11-02 09:16:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:10] [class-ss-page.php:119] Checking Content Identical:3a6d52169c525d018f4c98f38ebb3367df95db32===. Value: FALSE
+[2024-11-02 09:16:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/2024/11/02/hello-world/
+[2024-11-02 09:16:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 21
+[2024-11-02 09:16:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725edda40cc5-jWZHj9.tmp
+[2024-11-02 09:16:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/2024/11/02/hello-world/?simply_static_page=4
+[2024-11-02 09:16:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/2024/11/02/hello-world/?simply_static_page=4
+[2024-11-02 09:16:10] [class-ss-url-fetcher.php:103] Filesize: 76323 bytes
+[2024-11-02 09:16:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-02 09:16:10] [class-ss-url-fetcher.php:233] New filename for static page: /2024/11/02/hello-world/index.html
+[2024-11-02 09:16:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725edda40cc5-jWZHj9.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/2024/11/02/hello-world/index.html
+[2024-11-02 09:16:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:12] [class-ss-fetch-urls-task.php:159] Adding 22 URLs to the queue
+[2024-11-02 09:16:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:13] [class-ss-page.php:119] Checking Content Identical:e53a18aada42a8129b5e0aa39ac661cddda533a8===. Value: FALSE
+[2024-11-02 09:16:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/author/knotanime/
+[2024-11-02 09:16:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 21
+[2024-11-02 09:16:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725eddd685a4-zuDJlU.tmp
+[2024-11-02 09:16:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/author/knotanime/?simply_static_page=5
+[2024-11-02 09:16:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/author/knotanime/?simply_static_page=5
+[2024-11-02 09:16:13] [class-ss-url-fetcher.php:103] Filesize: 63632 bytes
+[2024-11-02 09:16:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-02 09:16:13] [class-ss-url-fetcher.php:233] New filename for static page: /author/knotanime/index.html
+[2024-11-02 09:16:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725eddd685a4-zuDJlU.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/author/knotanime/index.html
+[2024-11-02 09:16:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:15] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-11-02 09:16:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:16] [class-ss-page.php:119] Checking Content Identical:af0119870b932d339d94555efd242ba7d8680865===. Value: FALSE
+[2024-11-02 09:16:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/category/uncategorized/
+[2024-11-02 09:16:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 21
+[2024-11-02 09:16:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede0900e7-K7zSFa.tmp
+[2024-11-02 09:16:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/category/uncategorized/?simply_static_page=6
+[2024-11-02 09:16:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/category/uncategorized/?simply_static_page=6
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:103] Filesize: 56400 bytes
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede1220eb-uwLeZK.tmp
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/category/uncategorized/
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:103] Filesize: 56400 bytes
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-11-02 09:16:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 21
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede1b1a3b-VGQJ9H.tmp
+[2024-11-02 09:16:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=7
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=7
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede1b1a3b-VGQJ9H.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:17] [class-ss-page.php:119] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-11-02 09:16:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 21
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede1b8af9-Pq1DFd.tmp
+[2024-11-02 09:16:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=8
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=8
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede1b8af9-Pq1DFd.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:17] [class-ss-page.php:119] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-11-02 09:16:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 21
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede1be07b-3UOUeR.tmp
+[2024-11-02 09:16:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=9
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=9
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede1be07b-3UOUeR.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:17] [class-ss-page.php:119] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-includes/blocks/navigation/view.min.js
+[2024-11-02 09:16:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 21
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede1c5df5-sSgqyA.tmp
+[2024-11-02 09:16:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/wp-includes/blocks/navigation/view.min.js?simply_static_page=10
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/wp-includes/blocks/navigation/view.min.js?simply_static_page=10
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede1c5df5-sSgqyA.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/wp-includes/blocks/navigation/view.min.js
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:17] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/feed/
+[2024-11-02 09:16:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 21
+[2024-11-02 09:16:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede1ccd38-HvCSmk.tmp
+[2024-11-02 09:16:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/feed/?simply_static_page=11
+[2024-11-02 09:16:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/feed/?simply_static_page=11
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:103] Filesize: 1698 bytes
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede1ccd38-HvCSmk.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/feed/index.xml
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:18] [class-ss-page.php:119] Checking Content Identical:8e9b625b57ff9ab8b5e276f8b45cd00ff8e239b1===. Value: FALSE
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/comments/feed/
+[2024-11-02 09:16:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 21
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede244bcc-DJZ1Q6.tmp
+[2024-11-02 09:16:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/comments/feed/?simply_static_page=12
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/comments/feed/?simply_static_page=12
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:103] Filesize: 1669 bytes
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede244bcc-DJZ1Q6.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/comments/feed/index.xml
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:18] [class-ss-page.php:119] Checking Content Identical:caf2e7518fe3c5c5da6cca884d43fd4f9fe117d7===. Value: FALSE
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-includes/blocks/navigation/style.min.css
+[2024-11-02 09:16:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 21
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede2b973f-IMOJFA.tmp
+[2024-11-02 09:16:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/wp-includes/blocks/navigation/style.min.css?simply_static_page=13
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/wp-includes/blocks/navigation/style.min.css?simply_static_page=13
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede2b973f-IMOJFA.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/wp-includes/blocks/navigation/style.min.css
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:18] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-includes/blocks/image/style.min.css
+[2024-11-02 09:16:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 21
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede2c08ad-uGJx13.tmp
+[2024-11-02 09:16:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/wp-includes/blocks/image/style.min.css?simply_static_page=14
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/wp-includes/blocks/image/style.min.css?simply_static_page=14
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:103] Filesize: 6358 bytes
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede2c08ad-uGJx13.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/wp-includes/blocks/image/style.min.css
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:18] [class-ss-page.php:119] Checking Content Identical:54a1fef5278908a5bbd901dea250139c6d992b6f===. Value: FALSE
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-json/
+[2024-11-02 09:16:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 21
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/knotanime/wp-json/
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/xmlrpc.php
+[2024-11-02 09:16:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 21
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/knotanime/xmlrpc.php
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-includes/js/dist/interactivity.min.js
+[2024-11-02 09:16:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 21
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede2cca5e-sZLTx6.tmp
+[2024-11-02 09:16:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/wp-includes/js/dist/interactivity.min.js?simply_static_page=17
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/wp-includes/js/dist/interactivity.min.js?simply_static_page=17
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:103] Filesize: 36686 bytes
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede2cca5e-sZLTx6.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/wp-includes/js/dist/interactivity.min.js
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:18] [class-ss-page.php:119] Checking Content Identical:39f2fd1115fdb171ea318c2ca240c7fe53df79b4===. Value: FALSE
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-11-02 09:16:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 21
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede2d7ac0-HiDriq.tmp
+[2024-11-02 09:16:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=18
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=18
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede2d7ac0-HiDriq.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:18] [class-ss-page.php:119] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-11-02 09:16:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 21
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede2ddf16-snAWIV.tmp
+[2024-11-02 09:16:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=19
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=19
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede2ddf16-snAWIV.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:18] [class-ss-page.php:119] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-11-02 09:16:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 21
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede2e2dfd-5oirzP.tmp
+[2024-11-02 09:16:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=20
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=20
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede2e2dfd-5oirzP.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:18] [class-ss-page.php:119] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-11-02 09:16:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 21
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede2e7924-mu5bJJ.tmp
+[2024-11-02 09:16:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=21
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=21
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede2e7924-mu5bJJ.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:18] [class-ss-page.php:119] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
+[2024-11-02 09:16:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 21 pages/files
+[2024-11-02 09:16:18] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-02 09:16:18] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-02 09:16:18] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:69] Total pages: 31; Pages remaining: 10
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-admin/
+[2024-11-02 09:16:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 31
+[2024-11-02 09:16:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede2ebe0a-HaFxty.tmp
+[2024-11-02 09:16:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/wp-admin/?simply_static_page=22
+[2024-11-02 09:16:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/wp-admin/?simply_static_page=22
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/knotanime/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fknotanime%2Fwp-admin%2F%3Fsimply_static_page%3D22&reauth=1
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-11-02 09:16:19] [class-ss-page.php:119] Checking Content Identical:934f589563fcc70f73cf105e7e11075c02ea935d===. Value: FALSE
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/sample-page/feed/
+[2024-11-02 09:16:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 31
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede35113f-8zC6NO.tmp
+[2024-11-02 09:16:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/sample-page/feed/?simply_static_page=23
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/sample-page/feed/?simply_static_page=23
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:103] Filesize: 745 bytes
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede35113f-8zC6NO.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/sample-page/feed/index.xml
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:19] [class-ss-page.php:119] Checking Content Identical:d56193cf96b87ff287db1655384bd8e90b92ed34===. Value: FALSE
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-json/wp/v2/pages/2
+[2024-11-02 09:16:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 31
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/knotanime/wp-json/wp/v2/pages/2
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-json/oembed/1.0/embed
+[2024-11-02 09:16:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 31
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/knotanime/wp-json/oembed/1.0/embed
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-includes/js/comment-reply.min.js
+[2024-11-02 09:16:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 31
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede3b722e-yAwdAu.tmp
+[2024-11-02 09:16:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/wp-includes/js/comment-reply.min.js?simply_static_page=26
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/wp-includes/js/comment-reply.min.js?simply_static_page=26
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede3b722e-yAwdAu.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/wp-includes/js/comment-reply.min.js
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:19] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/2024/11/02/hello-world/feed/
+[2024-11-02 09:16:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 31
+[2024-11-02 09:16:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede3c1ed9-YW8ILU.tmp
+[2024-11-02 09:16:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/2024/11/02/hello-world/feed/?simply_static_page=27
+[2024-11-02 09:16:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/2024/11/02/hello-world/feed/?simply_static_page=27
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:103] Filesize: 1687 bytes
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:233] New filename for static page: /2024/11/02/hello-world/feed/index.xml
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede3c1ed9-YW8ILU.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/2024/11/02/hello-world/feed/index.xml
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:20] [class-ss-page.php:119] Checking Content Identical:f72525d143b95a23a424ff46f194c6e40a339167===. Value: FALSE
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-includes/css/dist/block-library/common.min.css
+[2024-11-02 09:16:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 31
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede42f22c-NdcbPs.tmp
+[2024-11-02 09:16:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/wp-includes/css/dist/block-library/common.min.css?simply_static_page=28
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/wp-includes/css/dist/block-library/common.min.css?simply_static_page=28
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:103] Filesize: 3472 bytes
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede42f22c-NdcbPs.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/wp-includes/css/dist/block-library/common.min.css
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:20] [class-ss-page.php:119] Checking Content Identical:bbde28aa1f2f849a80a69d35191a0814c62648ca===. Value: FALSE
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-json/wp/v2/posts/1
+[2024-11-02 09:16:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 31
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/knotanime/wp-json/wp/v2/posts/1
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/author/knotanime/feed/
+[2024-11-02 09:16:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 31
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede437ad8-324ZLf.tmp
+[2024-11-02 09:16:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/author/knotanime/feed/?simply_static_page=30
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/author/knotanime/feed/?simply_static_page=30
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:103] Filesize: 1733 bytes
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:233] New filename for static page: /author/knotanime/feed/index.xml
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede437ad8-324ZLf.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963/author/knotanime/feed/index.xml
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-02 09:16:20] [class-ss-page.php:119] Checking Content Identical:cd970000302e66d4977ca952f10a453aae3aae77===. Value: FALSE
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-json/wp/v2/users/1
+[2024-11-02 09:16:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 31
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/knotanime/wp-json/wp/v2/users/1
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-02 09:16:20] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 21 of 31 pages/files
+[2024-11-02 09:16:20] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-02 09:16:20] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-02 09:16:20] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:69] Total pages: 32; Pages remaining: 1
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/knotanime/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fknotanime%2Fwp-admin%2F%3Fsimply_static_page%3D22&reauth=1
+[2024-11-02 09:16:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 32
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/knotanime/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fknotanime%2Fwp-admin%2F%3Fsimply_static_page%3D22&reauth=1
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-02 09:16:20] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 31 of 32 pages/files
+[2024-11-02 09:16:20] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-02 09:16:20] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-02 09:16:20] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-02 09:16:20] [class-ss-fetch-urls-task.php:69] Total pages: 32; Pages remaining: 0
+[2024-11-02 09:16:20] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 32 of 32 pages/files
+[2024-11-02 09:16:20] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-11-02 09:16:20] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-11-02 09:16:20] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-11-02 09:16:20] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\MILE\AppData\Local\Temp/6725ede4a6f9a-zieSSw.tmp
+[2024-11-02 09:16:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/knotanime/1730538981?simply_static_page=0
+[2024-11-02 09:16:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/knotanime/1730538981?simply_static_page=0
+[2024-11-02 09:16:21] [class-ss-url-fetcher.php:103] Filesize: 56400 bytes
+[2024-11-02 09:16:21] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-11-02 09:16:21] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-11-02 09:16:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\MILE\AppData\Local\Temp/6725ede4a6f9a-zieSSw.tmp to C:\xampp\htdocs\knotanime/wp-content/uploads\simply-static\temp-files/simply-static-1-1730538963\404/index.html
+[2024-11-02 09:16:21] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-11-02 09:16:22] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-11-02 09:16:23] [class-ss-page.php:119] Checking Content Identical:e71a454f79b0a7138389e53ba89978e4b15f9970===. Value: FALSE
+[2024-11-02 09:16:23] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-11-02 09:16:23] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-11-02 09:16:23] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-11-02 09:16:23] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-11-02 09:16:23] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 23 of 23 files
+[2024-11-02 09:16:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/
+[2024-11-02 09:16:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/sample-page
+[2024-11-02 09:16:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/2024/11/02/hello-world
+[2024-11-02 09:16:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/author/knotanime
+[2024-11-02 09:16:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/wp-content/themes/twentytwentyfour/assets/images
+[2024-11-02 09:16:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/wp-content/themes/twentytwentyfour/assets/images
+[2024-11-02 09:16:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/wp-content/themes/twentytwentyfour/assets/images
+[2024-11-02 09:16:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/wp-includes/blocks/navigation
+[2024-11-02 09:16:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/feed
+[2024-11-02 09:16:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/comments/feed
+[2024-11-02 09:16:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/wp-includes/blocks/navigation
+[2024-11-02 09:16:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/wp-includes/blocks/image
+[2024-11-02 09:16:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/wp-includes/js/dist
+[2024-11-02 09:16:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/inter
+[2024-11-02 09:16:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-11-02 09:16:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-11-02 09:16:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-11-02 09:16:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/wp-admin
+[2024-11-02 09:16:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/sample-page/feed
+[2024-11-02 09:16:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/wp-includes/js
+[2024-11-02 09:16:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/2024/11/02/hello-world/feed
+[2024-11-02 09:16:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/wp-includes/css/dist/block-library
+[2024-11-02 09:16:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/knotanime/author/knotanime/feed
+[2024-11-02 09:16:24] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:23. Processed Pages: 23
+[2024-11-02 09:16:24] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 23 of 23 files
+[2024-11-02 09:16:24] [trait-can-process-pages.php:110] Total pages: 23; Pages remaining: 0
+[2024-11-02 09:16:24] [class-ss-transfer-files-locally-task.php:243] Transferring 404 Page
+[2024-11-02 09:16:24] [class-ss-transfer-files-locally-task.php:263] Destination 404 Page found at C:/xampp/htdocs/knotanime\404\index.html
+[2024-11-02 09:16:24] [class-ss-transfer-files-locally-task.php:267] Success
+[2024-11-02 09:16:24] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://knotanime.com/" target="_blank">https://knotanime.com/</a>
+[2024-11-02 09:16:24] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-11-02 09:16:24] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-11-02 09:16:24] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-11-02 09:16:24] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-11-02 09:16:24] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-11-02 09:16:24] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-11-02 09:16:24] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-11-02 09:16:24] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:21
